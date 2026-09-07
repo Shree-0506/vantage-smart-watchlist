@@ -79,9 +79,9 @@ export default function App() {
         <Route
           path="/admin"
           element={
-            <RequireAdmin>
+
               <Admin />
-            </RequireAdmin>
+            
           }
         />
 
